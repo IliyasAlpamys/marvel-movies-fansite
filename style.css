@@ -1,0 +1,193 @@
+/* ==================== CSS RESET ======================== */
+
+html, body, h1, h2, h3, h4, h5, h6, p, a, div, ul, li, blockquote { 
+font-family: 'Oswald', sans-serif;
+font-size: 100%;
+}
+
+html, body{
+background-image:url(../images/bg.jpg);
+background-repeat: repeat;
+background-position:cover;
+min-height: 100%;
+}
+
+html{
+	background-image:url(images/bg.jpg);
+}
+
+
+
+/*======================  General Styles ===================*/ 
+#wrapper{
+width: 1000px;
+background: #fff;
+margin: auto;
+}
+
+h1, h2, h3, h4 { 
+text-transform: capitalize; 
+font-weight: 700; 
+padding-top: 40px;
+padding-bottom: 5px;
+}
+
+h1{
+font-size: 2em;
+padding-top: 0;
+padding-bottom:5px;
+}
+
+/* ==================== Header ==========================================*/
+header{
+background-color: white;
+border-top:11px solid #f11e22;
+width:278px;
+height:123px;
+float:left;
+}
+
+nav ul { 
+position: relative;
+width: 720px;
+float: left;
+padding: 0;
+margin-top:105px;
+margin-bottom:0px;
+border-right:2px solid #f11e22;
+}
+
+nav ul li {
+background-color:#939598;
+margin:0;
+border-right: 1px solid #555555; 
+float: left; 
+list-style: none; 
+}
+
+nav ul li a:link, nav ul li a:visited { 
+width: 143px;
+margin: auto;                            
+padding: 6px 0; 
+background-color:#f11e22;            
+transition:background-color .75s; 
+font-size: .75em; 
+display:inline-block;
+text-decoration:none;
+text-align:center;
+color: white;
+}
+
+nav ul li:hover a, nav ul li:active a{
+background-color:#939598;
+transition: background-color .75s;
+color:white;
+}
+
+nav ul li a.current{
+background-color:#5c0507;
+cursor:default;
+}
+
+nav ul li:last-child{
+	border-right:1px solid #f11e22;
+}
+
+/* ========================= Footer =====================================*/
+
+blockquote{
+border-top: 2px solid #f11e22;
+text-align:center;
+font-family: 'Bangers', cursive;
+background-color:#fff;
+color: black;
+}
+
+.copyrights{
+padding-top:40px;
+padding-bottom:10px;
+font-size:.7em;
+color:#f11e22;
+text-align: center;
+background: white;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* ========================== Main ====================================*/
+
+main{
+width:100%;
+padding-top:60px;
+padding-bottom:100px;
+margin:auto;
+}
+.posters{
+    border: 5px solid #f11e22;
+    padding: 50px;
+    background: #666;
+    margin-bottom: 10px;
+}
+.posters2{
+    border: 5px solid #f11e22;
+    padding: 50px;
+    background: #666;
+    margin-bottom: 10px;
+}
+.posters3{
+    border: 5px solid #f11e22;
+    padding: 50px;
+    background: #666;
+    margin-bottom: 10px;
+}
+.heroes{
+    border: 5px solid #f11e22;
+    padding: 50px;
+    background: #666;
+    width:620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.phase3{
+    border: 5px solid #f11e22;
+    padding: 50px;
+    background: #666;
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;	
+}
+div.img {
+	display:inline-block;
+	margin:0 auto;
+}
+.pp1{
+	font-size:.9em;
+}
+#map{
+	height: 605px;
+    width: 780px;
+    border: 1px solid #444;
+    margin: 10px 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text{
+	padding-left: 100px;
+}
+.ssilkanafilmy{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.trailers{
+    padding-left: 200px;
+	padding-right: 200px;
+}
+.noviefilms{
+    border: 5px solid #f11e22;
+    padding: 50px;
+    background: #666;
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;	
+}
